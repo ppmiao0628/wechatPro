@@ -9,5 +9,12 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">keller</text>
+  </view>
+  <view class="userinfo">
+    <button bindtap='changeBg'> 跳转弹幕页面 </button>
+  </view>
+  <view class="userinfo">
+    <button bindtap='qrCode'> 二维码生成器 </button>
   </view>
 </view>

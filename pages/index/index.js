@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: 'Hello ',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -13,6 +13,16 @@ Page({
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
+    })
+  },
+  changeBg: function () {
+    wx.navigateTo({
+      url: '../main/main'
+    })
+  },
+  arCode: function () {
+    wx.navigateTo({
+      url: '../qrCode/qrCode'
     })
   },
   onLoad: function () {
