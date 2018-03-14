@@ -20,7 +20,7 @@ Page({
       url: '../main/main'
     })
   },
-  arCode: function () {
+  qrCode: function () {
     wx.navigateTo({
       url: '../qrCode/qrCode'
     })
